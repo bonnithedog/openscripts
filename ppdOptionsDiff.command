@@ -1,4 +1,9 @@
 #!/bin/bash
+
+######################################################################################################################################
+# Credits "https://www.brunerd.com/blog/2012/03/13/getting-and-setting-ppd-options-via-command-line-for-use-with-lpadmin-in-os-x/"   #
+######################################################################################################################################
+
 [ -f /tmp/debug ] && set -x
 #ppd option maker
 
@@ -77,3 +82,5 @@ fi
 rm "$tempOriginalFile" "$tempNewFile"
 
 exit
+
+
